@@ -17,7 +17,7 @@ class PropertyFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'code' => $this->faker->numberBetween($min = 1000, $max = 9000)
         ];
     }
 }
